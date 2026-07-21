@@ -90,9 +90,10 @@ h1 {
     }
 
 
-    .horse {
-    display: inline-block;
-    animation: bounce 2s ease-in-out infinite;
+.horse {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
 }
 
 @keyframes bounce {
