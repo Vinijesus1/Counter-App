@@ -55,7 +55,7 @@ h1 {
     font-family: Arial, sans-serif;
 }
 
-/* Tablet (a partir de 768px) */
+
 @media (min-width: 768px) {
     h1 {
         font-size: 28px;
@@ -72,7 +72,7 @@ h1 {
     }
 }
 
-/* Desktop (a partir de 1024px) */
+
 @media (min-width: 1024px) {
     h1 {
         font-size: 30px;
@@ -84,7 +84,19 @@ h1 {
         padding: 10px;
     }
 
+
     .counter {
         font-size: 30px;
     }
+
+
+    .horse {
+    display: inline-block;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateX(0) scaleX(1); }
+    50% { transform: translateX(15px) scaleX(-1); }
+}
 }
